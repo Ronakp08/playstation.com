@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-16-16--t$"
+      sizes="16x16"
+    />
+    <title>
+      PlayStation® Official Site Consoles, Games, Accessories & More
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="sony-logo"><img src="./asset/sony_logo.svg" alt="" /></div>
+    <div class="navbar">
+      <div class="logo">
+        <img src="./asset/pslogo.svg" alt="photo daal" />
+        <div class="navItems">
+          <ul>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              Games
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              PS5
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              PS4
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              Services
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              Accessories
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              News
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              Store
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+            <li class="menu-item" onclick="toggleIcon(this)">
+              Support
+              <div class="icon"><i class="ri-arrow-down-s-line"></i></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-nav">
+        <button>Sign In</button>
+        <img src="./asset/search.svg" alt="" />
+      </div>
+    </div>
+    <!--- End of Header-->
+
+    <!---------Main Star from here----->
+    <main>
+      <!-------First Section---->
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slides">
+            <div class="slide"><div id="games"></div></div>
+            <div class="slide"><div id="games"></div></div>
+            <div class="slide"><div id="games"></div></div>
+            <div class="slide"><div id="games"></div></div>
+            <div class="slide"><div id="games"></div></div>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <div class="button" data-index="0" onclick="changeslide(0)">
+            <div class="buttonimage">
+              <img
+                src="./asset/The-last-of-us-part-ii-remastered-hero-banner-desktop-02-en-16mar23.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="button" onclick="changeSlide(1)">
+            <div class="buttonimage">
+              <img
+                src="./asset/great-games-2024-homepage-hero-desktop-01-14dec23$en.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="button" onclick="changeSlide(2)">
+            <div class="buttonimage">
+              <img
+                src="./asset/NBA2K24-s4-hero-desktop-01-en-05jan24.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="button" onclick="changeSlide(3)">
+            <div class="buttonimage">
+              <img
+                src="./asset/spider-man-2-hero-banner-desktop-07-en-16oct23.webp"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="button" onclick="changeSlide(4)">
+            <div class="buttonimage">
+              <img
+                src="./asset/Fortnite-hero-desktop-05-en-11dec23.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="wrapper">
+      <div class="custom-slider-container">
+        <div class="custom-slider" id="custom-slider">
+          <!----------  Slide 1-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">PlayStation 5 Console</div>
+              <div class="sub">
+                Experience an all-new generation of incredible PlayStation
+                games.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/PS5_Console.webp" alt="" />
+            </div>
+          </div>
+          <!----------  End of Slide 1-->
+
+          <!----------  Slide 2-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">DualSense™ Wireless Controller</div>
+              <div class="sub">
+                Immerse yourself in the gaming experience with a controller the
+                supports responsive haptic feedback and dynamic trigger effects.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/Wireless_Controller.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 2-->
+
+          <!----------  Slide 3-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">PULSE Elite™ Wireless Headset</div>
+              <div class="sub">
+                Enjoy life like gaming audio in a comfortable headset design
+                equipped with a retractable microphone and built-in long-life
+                battery
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/PULSE-Elite-headset.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 3-->
+
+          <!----------  Slide 4-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">PULSE Explore™ Wireless Earbuds</div>
+              <div class="sub">
+                Enjoy life like gaming audio wherever play takes you with a
+                portable design equipped with hidden microphone and a companion
+                charging case.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/PULSE-Explore-earbuds-image.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 4-->
+
+          <!----------  Slide 5-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">DualSense Edge™ Wireless Controller</div>
+              <div class="sub">
+                Get an edge in gameplay with remappable buttons, tuneable
+                ttriggers and sticks, changeable stick ccaps, back button, and
+                more.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img
+                src="./asset/dualsense-edge-featured-controooo.webp"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!----------End of Slide 5-->
+
+          <!----------  Slide 6-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">Access™ Controller</div>
+              <div class="sub">
+                A highly customisable PlayStation®5 controller kit designed to
+                make gaming more accessible.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/access-controller-featured.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 6-->
+
+          <!----------  Slide 7-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">PS5 Console Covers</div>
+              <div class="sub">
+                Personalise your PlayStation 5 or PlayStation 5 Digital Edition
+                console with a vibrant array of new colour options.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/ps5-console-cover-range-.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 7-->
+
+          <!----------  Slide 8-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">Media Remote</div>
+              <div class="sub">
+                Conveniently controls movies, streaming services and more on
+                your PS5 console with an intuitive layout.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/media-remote-featured.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 8-->
+
+          <!----------  Slide 9-->
+          <div class="custom-slide ps5">
+            <div class="left">
+              <p>Introducing the</p>
+              <p>PS5 console and</p>
+              <p>accessories</p>
+              <br />
+              <div class="ps5-dark">HD Camera</div>
+              <div class="sub">
+                Add yourself to your gameplay videos and broadcasts with smooth,
+                sharp, full-HD capture.
+              </div>
+              <button id="find">Find out more</button>
+            </div>
+            <div class="right">
+              <img src="./asset/hd-camera-featured.webp" alt="" />
+            </div>
+          </div>
+
+          <!----------End of Slide 9-->
+
+          
+        </div>
+      </div>
+
+      <div class="custom-button-container">
+        <div class="scroll-buttons">
+          <button class="scroll-button1" onclick="scrollCustomSlider('left')">
+            &lt;
+          </button>
+          <button class="scroll-button2" onclick="scrollCustomSlider('right')">
+            &gt;
+          </button>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(0)"
+          id="custom-button-1"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/PS5_Console.webp" alt="" />
+          </div>
+          <div class="imgtitle">PS5 Console</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(1)"
+          id="custom-button-2"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/Wireless_Controller.webp" alt="" />
+          </div>
+          <div class="imgtitle">DualSense™ Wireless Controller</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(2)"
+          id="custom-button-3"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/PULSE-Elite-headset.webp" alt="" />
+          </div>
+          <div class="imgtitle">PULSE Elite™ Wireless Headset</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(3)"
+          id="custom-button-4"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/PULSE-Explore-earbuds-image.webp" alt="" />
+          </div>
+          <div class="imgtitle">PULSE Explore™ Wireless Earbuds</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(4)"
+          id="custom-button-5"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/dualsense-edge-featured-controooo.webp" alt="" />
+          </div>
+          <div class="imgtitle">DualSense Edge</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(5)"
+          id="custom-button-6"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/access-controller-featured.webp" alt="" />
+          </div>
+          <div class="imgtitle">Access™ Controller</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(6)"
+          id="custom-button-7"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/ps5-console-cover-range-.webp" alt="" />
+          </div>
+          <div class="imgtitle">PS5 Console Covers</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(7)"
+          id="custom-button-8"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/media-remote-featured.webp" alt="" />
+          </div>
+          <div class="imgtitle">Media Remote</div>
+        </div>
+        <div
+          class="custom-button"
+          onclick="changeCustomSlide(8)"
+          id="custom-button-9"
+        >
+          <div class="cstbuttonimage">
+            <img src="./asset/hd-camera-featured.webp" alt="" />
+          </div>
+          <div class="imgtitle">HD Camera</div>
+        </div>
+      </div>
+      <!------- Pagination---------->
+      <div class="pagination-container">
+        <div class="pagination-symbol" onclick="changeCustomSlide(0)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(1)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(2)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(3)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(4)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(5)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(6)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(7)"></div>
+        <div class="pagination-symbol" onclick="changeCustomSlide(8)"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+</html>
